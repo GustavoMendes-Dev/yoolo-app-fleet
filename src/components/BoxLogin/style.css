@@ -1,0 +1,24 @@
+.box__login {
+  padding: 50px 45px 50px 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+@media only screen and (max-width: 767px) {
+  .bg__login {
+    display: none;
+  }
+}
+
+.title__login {
+  font-size: 20px;
+  color: #002032;
+  margin-top: 40px;
+}
+
+.subtitle__login {
+  font-size: 13px;
+  color: #002032;
+  font-weight: 400;
+}

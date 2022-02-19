@@ -1,0 +1,24 @@
+.btn {
+  font-size: 14px;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 40px 0;
+}
+.btn-primary {
+  width: 100%;
+  background-image: linear-gradient(to right, #ED4A49 , #F2295B);
+  border: none;
+  color: #ffffff;
+  transition: all 0.8s;
+
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+  border: none;
+  background-image: linear-gradient(to right, #F2295B , #ED4A49);
+  color: #ffffff;
+  box-shadow: none;
+}
+
+button.disabled span {
+  color: #ffffff;
+}
