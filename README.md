@@ -1,3 +1,3 @@
-# Painel do Comerciante | Yoolo Logística.
+# Painel do Fanqueado | Yoolo Logística.
 
-Painel de administração do Comerciante. Criado em ReactJs.
+Painel de administração do franqueado. Criado em ReactJs.
