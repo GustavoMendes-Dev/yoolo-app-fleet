@@ -67,7 +67,7 @@ export default function FormLogin() {
           />
         </FormGroup>
 
-        <Link to='/forgot-password' className='link__login'>Esqueci minha senha.</Link>
+        {/* <Link to='/forgot-password' className='link__login'>Esqueci minha senha.</Link> */}
 
         <Btn
             className='btn__login'
