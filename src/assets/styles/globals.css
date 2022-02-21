@@ -9,12 +9,21 @@ body {
 /* Login */
 
 .bg__login {
-  background: #000000;
   background-image: url("../imgs/bg__login-lg.png");
-  height: 100vh;
-  background-position: center center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-position: -200px center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.login-page__blank-side {
+  width: 100%;
+  height: 100%;
+  position: fixed;
 }
 
 .alert {

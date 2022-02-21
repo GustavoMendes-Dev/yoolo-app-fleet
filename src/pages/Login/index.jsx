@@ -16,7 +16,11 @@ function Login() {
             <FormLogin/>
           </BoxLogin>
         </Col>
-        <Col lg={8} md={7} className='bg__login'></Col>
+        <Col lg={8} md={7}>
+          <div className="login-page__blank-side">
+            <div className="bg__login"></div>
+          </div>
+        </Col>
       </Row>
   )
 }
