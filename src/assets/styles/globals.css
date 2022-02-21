@@ -8,6 +8,10 @@ body {
 }
 /* Login */
 
+.page__login {
+  margin: 0 !important;
+}
+
 .bg__login {
   background-image: url("../imgs/bg__login-lg.png");
   position: absolute;

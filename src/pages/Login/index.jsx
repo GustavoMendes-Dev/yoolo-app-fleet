@@ -7,7 +7,7 @@ import FormLogin from '../../components/FormLogin'
 function Login() {
 
   return (
-      <Row>
+      <Row className='page__login'>
         <Col lg={4} md={5} xs={12}>
           <BoxLogin
             title='Portal do Franqueado.'
