@@ -10,8 +10,8 @@ function Login() {
       <Row>
         <Col lg={4} md={5} xs={12}>
           <BoxLogin
-            title='Portal do Comerciante.'
-            subtitle='Gerencie suas entregas de forma fácil e rápida.'
+            title='Portal do Franqueado.'
+            subtitle='Gerencie sua franquia de forma fácil e rápida.'
           >
             <FormLogin/>
           </BoxLogin>

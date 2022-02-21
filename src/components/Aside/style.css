@@ -1,0 +1,38 @@
+.aside__bar {
+  height: 100vh;
+  background-color: #002032;
+  width: 180px;
+}
+
+.aside__brand {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  margin: 0 20px 20px;
+  border-bottom: 1px #00273E solid;
+}
+
+.menu__item {
+  display: flex;
+  font-family: 'Poppins', sans-serif;
+  justify-content: flex-start;
+  align-items: center;
+  text-decoration: none;
+  padding: 10px 20px;
+  margin: 10px 0 10px 10px;
+  border-radius: 10px 0 0 10px;
+  background-color: #002032;
+  transition: all 0.5s;
+}
+
+.menu__item:hover, .menu__item.active {
+  background-color: #ED4A49;
+}
+
+.menu__item p {
+  font-size: 12px;
+  color: #ffffff;
+  margin: 0;
+  padding-left: 10px;
+}
